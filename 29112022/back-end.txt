@@ -1,0 +1,33 @@
+1 - Verificar valor disponível para compra do computador;
+2 - Ligar o dispositivo para compra;
+    2.1 - verificar disponibilidade de rede, caso postivo;
+    2.2 - verificar liberação para acesso à internet, caso positivo;
+    2.3 - esperar o usuário abrir o navegador;
+    2.4 - exibir a tela inicial do navegador;
+3 - Acessar o site do google;
+4 - Pesquisar no google modelos de macbook e seus preços;
+5 - Verificar se o valor disponível é o suficiente para a compra do produto;
+6 - Pesquisar no google diferentes lojas que vendem o modelo escolhido;
+7 - Comparar os preços e escolher aquele com o menor custo;
+8 - Verificar a confiabilidade do site escolhido. Se o site não for confiável, escolher outro;
+9 - Acessar o site escolhido e fazer pesquisa sobre disponibilidade de entrega;
+10 - Caso não tenha o produto pra entega, voltar ao passo 4;
+11 - Entrar no site escolhido e pesquisar o modelo;
+12 - Adicionar o produto ao carrinho;
+13 - Fornecer as informações de pagamento de acordo com as instruções do site;
+14 - Efetuar o pagamento;
+15 - Aguardar a entrega do produto.
+
+
+
+
+
+
+1 - Escolher uma pessoa; 
+2 - Pedir a ela para dizer dois números inteiros quaisquer;
+3 - Anotar os números dito pela pessoa em um papel;
+4 - Verificar a quantidade de ordens do número;
+4 - Alinhar as ordens dos números fornecidos;
+5 - Realizar a soma das unidades, caso a soma for maior que 10, armazenar na resposta a unidade do resultado e guardar o valor 1 na ordem seguinte;
+6 - Verificar se há valor na ordem seguinte; Caso não tenha, finalizar a conta;
+7 - Somar os valores da ordem das dezenas;
