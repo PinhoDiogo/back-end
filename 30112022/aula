@@ -1,0 +1,12 @@
+solicitar ao usuário o valor do salário
+calcular o valor do imposto a recolher considerando aliquota 7,5%
+Mostrar ao usuário o valor do imposto calculado
+
+
+const aliquota =7,5;
+var salario;
+var impostodevido;
+
+readln("informe o salario", salario);
+impostodevido = (salario*aliquota/100);
+writeline("O valor do imposto é: ", impostodevido);
