@@ -10,3 +10,46 @@ var impostodevido;
 readln("informe o salario", salario);
 impostodevido = (salario*aliquota/100);
 writeline("O valor do imposto é: ", impostodevido);
+
+
+Escrever um programa que baseado no valor do salário vai informar ao usuário aliquota do imposto de renda. Usando como regra a seguinte tabela
+Até 1.903,98                isento
+De 1.903,99 até 2.826,65	7,5%
+De 2.826,66 até 3.751,05	15%
+De 3.751,06 até 4.664,68	22,5%
+Acima de 4.664,68	        27,5%
+
+1 - Descrição narrativa
+
+    1. Solicitar ao usuário o valor do seu salário
+    2. Se salário <= 1.903,98 então escreva "você está livre do leão - isento"
+    3. Se salário <= 2.826,65 então escreva "A sua alíquota é de 7,5%"
+    4. Se salário <= 3.751,05 então escreva "A sua alíquota é de 15%"
+    5. Se salário <= 4.664,68 então escreva "A sua alíquota é de 22,5%"
+    6. escreva "A sua alíquota é de 27,5%"
+
+
+2 - algoritmo
+    const (valor1) = "isento";
+    const (valor2) = "7,5%";
+    const (valor3) = "15%";
+    const (valor4) = "22,5";
+    const (valor5) = "27,5";
+    var = salário
+
+    readln("informe seu salário", salário);
+
+    if(salário<=1.903,98) then
+        writeline ("você está livre do leão - ISENTO");
+    
+    elseif(salário<=2.826,65) then
+        writeline ("A sua alíquota é de:", valor2);
+
+    elseif(salário<=3.751,05) then
+        writeline ("A sua alíquota é de:", valor3);
+
+    elseif(salário<=4.664,68) then
+        writeline ("A sua alíquota é de:", valor4);
+
+    else 
+        writeline ("A sua alíquota é de:", valor5);
