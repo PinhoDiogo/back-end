@@ -1,0 +1,64 @@
+programa {
+  funcao inicio() {
+    cadeia nome
+
+    escreva("Bem vindo ao repetidor \n")
+    escreva("Escreva seu nome, que nós vamos repetir 1000x \n")
+    escreva("Digite agora seu nome \n")
+
+    leia(nome)
+
+    para(inteiro i=0; i<1000; i++){
+      escreva("Repetição: ", i)
+      escreva("\n")
+      escreva( "Seu nome é: \n", nome)
+      escreva("\n")
+    }
+  }
+}
+
+programa {
+  funcao inicio() {
+    inteiro numero
+
+    para(inteiro i=0; i<1000; i++){
+      numero = i*2
+      escreva("\n")
+      escreva(numero)
+  }
+  }
+}
+
+programa {
+  funcao inicio() {
+    inteiro numero
+    inteiro soma
+    soma = 0
+
+   para(inteiro i=0; i<5; i++){
+    escreva("Informe um número \n")
+    leia(numero)
+    soma = soma + numero
+    }
+    escreva("A soma é \n", soma)
+  }
+}
+
+programa {
+  funcao inicio() {
+    inteiro numero
+    inteiro resultado
+    resultado = 0
+    leia(numero)
+      escreva("Tabuada do ", numero)
+   
+    para(inteiro i=0; i<11; i++){
+      resultado = i * numero
+      escreva ("\n")
+      escreva (i)
+      escreva("X")
+      escreva (numero)
+      escreva ("=", resultado)
+      }
+  }
+}
